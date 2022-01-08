@@ -10,7 +10,7 @@ def main():
 	print("\033[H\033[J")
 	mainmenu()
 def mainmenu():
-  if not os.path.exists('smssenderdb.pickle'):
+  if not os.path.exists('spamsmsdb.pickle'):
     print("\033[1;33m1 STEP => SETUP API SETTINGS\033[1;0m")
   choicest1 = input("""     
   \x1B[32m 
@@ -68,11 +68,11 @@ def apisettings():
           input_userid = input("  2.Enter\033[1;32m Proovl.com UserID\033[1;0m:\n") 
           input_token = input("   3.Enter\033[1;32m Proovl.com Token\033[1;0m:\n") 
           try:
-              with open('smssenderdb.pickle', 'wb') as wfp:
+              with open('spamsms.pickle', 'wb') as wfp:
                pickle.dump((input_number, input_userid, input_token), wfp, protocol=pickle.HIGHEST_PROTOCOL)
               print("\033[H\033[J")
               print("\033[1;33m================ Saved! Current data: ================\033[1;0m")
-              with open('smssenderdb.pickle', 'rb') as rfp:
+              with open('spamsmsdb.pickle', 'rb') as rfp:
                otput = pickle.load(rfp)
               print("================ Number:\033[1;33m " + otput[0] + "\033[1;0m")
               print("================ UserID:\033[1;33m " + otput[1] + "\033[1;0m")
@@ -102,7 +102,7 @@ def singlesms():
 ╚═════╝░╚═╝░░░░░╚═╝░░╚═╝╚═╝░░░░░╚═╝  ╚═════╝░╚═╝░░░░░╚═╝╚═════╝░
   """)
   try:
-              with open('smssenderdb.pickle', 'rb') as rfp:
+              with open('spamsmsdb.pickle', 'rb') as rfp:
                otput = pickle.load(rfp)
               from2 = otput[0]
               user1 = otput[1]
