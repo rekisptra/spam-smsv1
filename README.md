@@ -10,18 +10,4 @@ SMS Sender Working with python 3 only.
 After Settings update, your data will be stored to new file smssenderdb.pickle. If you will have problems with saving,
 open permission (read, write) for file or folder where is main file is stored.
 
-Additionaly:<br>
-q. Can you add other operator (sms gateway connection)?<br>
-a. Yes. I can add any sms gateway API connection (by request only, contact me on Facebook)<br>
 
-
-![python sms](https://repository-images.githubusercontent.com/183734063/854caf80-68dc-11e9-8694-8ce512b70833)
-
-Video tutorial Termux SMS script:
-
-<a href="https://www.youtube.com/watch?v=gAWfjiNL9PE" target="_blank"><img src="http://img.youtube.com/vi/gAWfjiNL9PE/0.jpg" 
-alt="python bulk sms api" width="424" height="238" border="10" /></a>
-
-<br>
-<a href="https://www.facebook.com/chakabiz" target="_blank">https://www.facebook.com/chakabiz/</a><br>
-<a href="https://www.virtnumber.com/freesmsreceive.php" target="_blank">https://www.virtnumber.com</a>
