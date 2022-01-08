@@ -8,7 +8,7 @@ Python SPAM SMS with SMS Gateway API. Send SMS messages from Command Line / Term
 
 # Find me on
 Instagram :https://instagram.com/caratechno<br>
-Website : https:www.caratech.my.id<br>
+Website : www.caratech.my.id<br>
 Number Whatsapp : 6289508902582
 
 
