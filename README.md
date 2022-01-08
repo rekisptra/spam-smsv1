@@ -1,4 +1,4 @@
-# python spam sms ( bulk sms )
+# python spam sms 
 Python SPAM SMS with SMS Gateway API. Send SMS messages from Command Line / Terminal
 
 1. Download and run script
@@ -7,9 +7,9 @@ Python SPAM SMS with SMS Gateway API. Send SMS messages from Command Line / Term
 4. Now you can send Single or Bulk SMS.
 
 # Find me on
-Instagram :https://instagram.com/caratechno<br>
-Website : www.caratech.my.id<br>
-Number Whatsapp : 6289508902582
+`Instagram :` https://instagram.com/caratechno<br>
+`Website :` www.caratech.my.id<br>
+`Number Whatsapp :` 6289508902582
 
 
 
